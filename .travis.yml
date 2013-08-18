@@ -4,8 +4,8 @@ install:
   - sudo apt-get install -qq qtcreator qt5-default qtdeclarative5-dev qtdeclarative5-qtquick2-plugin
 
 script:
-  - cd QtQuick
+  - cd QtHtmlTest
   - qmake -project
   - pwd
-  - qmake QtQuick.pro
+  - qmake QtHtmlTest.pro
   - make
