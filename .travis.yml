@@ -6,5 +6,6 @@ install:
 script:
   - cd QtQuick
   - qmake -project
-  - qmake qtquick.pro
+  - pwd
+  - qmake QtQuick.pro
   - make
