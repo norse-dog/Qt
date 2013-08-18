@@ -3,6 +3,7 @@ install:
   - sudo apt-get install libqt5-dev qt5-qmake
 
 script:
+  - cd QtQuick
   - qmake -project
-  - qmake hello.pro
+  - qmake qtquick.pro
   - make

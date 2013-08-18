@@ -22,4 +22,4 @@ include(qtquick2applicationviewer/qtquick2applicationviewer.pri)
 qtcAddDeployment()
 
 OTHER_FILES += \
-    .travis.yml
+    ../.travis.yml
