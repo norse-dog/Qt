@@ -23,3 +23,5 @@ qtcAddDeployment()
 
 OTHER_FILES += \
     ../.travis.yml
+
+QT += quick
